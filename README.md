@@ -17,13 +17,9 @@ The app leverages modern Android development tools and GenAI-assisted features t
 In many rural schools:
 
 There is no proper library tracking system
-
 Students do not know which books are available
-
 Teachers maintain manual registers that are error-prone
-
 Books often get lost or returned late
-
 Reading culture is slowly declining
 
 💡 Solution – Namma-Pustaka
@@ -31,170 +27,146 @@ Reading culture is slowly declining
 Namma-Pustaka acts as a digital library register + student reading companion.
 
 Students can browse books visually
-
 Read Kannada summaries
-
 Reserve and review books
-
 Teachers can issue, track, and monitor overdue books
 
 🚀 Key Features
 
-📖 Book Catalog
+    📖 Book Catalog
 
-Browse books by categories:
+        Browse books by categories:
+        Story
+        Science
+        History
 
-Story
+    Grid-style layout showing book covers like a digital shelf
 
-Science
+    Search books by Book Name or Author
 
-History
+    📷 QR Code Borrow System
 
-Grid-style layout showing book covers like a digital shelf
+        Each book has a QR code
+        Teacher scans the QR to issue the book to a student
+        
+        Automatically records:
+                  Student name
+                  Issue date
+                  Return status
 
-Search books by Book Name or Author
+    ⭐ Review Corner
 
-📷 QR Code Borrow System
+        Students can:
+                  Give Star Ratings (1–5)
+                  Write one-sentence reviews
+                  Helps other students choose books
 
-Each book has a QR code
+    🏆 Reading Leaderboard
 
-Teacher scans the QR to issue the book to a student
+        Tracks:
+              Pages read per student
+              Monthly reading activity
+              Displays top readers
+              Encourages healthy competition
 
-Automatically records:
+    ⏰ Overdue Alerts
 
-Student name
+        Automatically detects overdue books
+        Overdue status text turns RED
+        Helps teachers follow up easily
 
-Issue date
+    🔄 App Usage & User Flow
+        
+        Teacher adds books using camera-based entry
+        Student browses catalog & reserves a book
+        Teacher scans QR code to issue book
+        Student reads and submits review
 
-Return status
+     🛠 Technical Implementation
+     
+     📌 Technologies Used Component
 
-⭐ Review Corner
+         Technology
+         Programming Language
+         Kotlin
+         Database
+         Room Database
+         QR Scanning
+         Google ML Kit
+         UI
+         RecyclerView (Grid Layout)
+         Architecture
+         MVVM
+         IDE
+         Android Studio
 
-Students can:
+    📂 Database Structure (Room DB)
 
-Give Star Ratings (1–5)
+         Book Table
+         Book ID
+         Title
+         Author
+         Category
+         Pages
+         QR Code ID
+         Transaction Table
+         Student Name
+         Book ID
+         Issue Date
+         Return Date
+         Status (Issued / Returned / Overdue)
 
-Write one-sentence reviews
+     📱 User Interface Highlights
 
-Helps other students choose books
+         Grid-based digital bookshelf
+         Simple icons and large text (child-friendly)
 
-🏆 Reading Leaderboard
+         Color indicators:
+         🔴 Red → Overdue
+         🟢 Green → Available
 
-Tracks:
+      Clean and minimal UI for rural usability
 
-Pages read per student
+      🎯 Impact Goals
 
-Monthly reading activity
+      📚 Literacy Promotion
 
-Displays top readers
+          Encourages students to read regularly
+          Makes books attractive using visuals and reviews
 
-Encourages healthy competition
+      🏫 Resource Management
 
-⏰ Overdue Alerts
+          Prevents loss of books
+          Maintains proper borrowing history
 
-Automatically detects overdue books
+      💻 Digital Habits
 
-Overdue status text turns RED
+          Introduces students to:
+          Digital check-in / check-out
+          Ratings and reviews
+          Responsible usage of shared resources
 
-Helps teachers follow up easily
+      ✅ Success Criteria
 
-🔄 App Usage & User Flow
+          ✔ Add new books using camera-based entry
+          ✔ QR-based book issuing system
+          ✔ Overdue books highlighted in RED
+          ✔ Search library by Book Name or Author
+          ✔ Leaderboard updates monthly
 
-Teacher adds books using camera-based entry
+       📌 Future Enhancements
 
-Student browses catalog & reserves a book
+           Cloud sync using Firebase
+           Parent notification system
+           AI-based book recommendations
+           Offline-first support for low internet areas
 
-Teacher scans QR code to issue book
+       👨‍🎓 Target Users
 
-Student reads and submits review
+           Rural School Students
+           Teachers & Librarians
+           Government School Administrators
 
-🛠 Technical Implementation
+       📄 License
 
-📌 Technologies Used
-
-Component
-
-Technology
-Programming Language
-Kotlin
-Database
-Room Database
-QR Scanning
-Google ML Kit
-UI
-RecyclerView (Grid Layout)
-Architecture
-MVVM
-IDE
-Android Studio
-
-📂 Database Structure (Room DB)
-
-Book Table
-Book ID
-Title
-Author
-Category
-Pages
-QR Code ID
-Transaction Table
-Student Name
-Book ID
-Issue Date
-Return Date
-Status (Issued / Returned / Overdue)
-
-📱 User Interface Highlights
-
-Grid-based digital bookshelf
-Simple icons and large text (child-friendly)
-
-Color indicators:
-🔴 Red → Overdue
-🟢 Green → Available
-
-Clean and minimal UI for rural usability
-
-🎯 Impact Goals
-
-📚 Literacy Promotion
-
-Encourages students to read regularly
-Makes books attractive using visuals and reviews
-
-🏫 Resource Management
-
-Prevents loss of books
-Maintains proper borrowing history
-
-💻 Digital Habits
-
-Introduces students to:
-Digital check-in / check-out
-Ratings and reviews
-Responsible usage of shared resources
-
-✅ Success Criteria
-
-✔ Add new books using camera-based entry
-✔ QR-based book issuing system
-✔ Overdue books highlighted in RED
-✔ Search library by Book Name or Author
-✔ Leaderboard updates monthly
-
-📌 Future Enhancements
-
-Cloud sync using Firebase
-Parent notification system
-AI-based book recommendations
-Offline-first support for low internet areas
-
-👨‍🎓 Target Users
-
-Rural School Students
-Teachers & Librarians
-Government School Administrators
-
-📄 License
-
-This project is developed for educational and academic purposes.
+           This project is developed for educational and academic purposes.
