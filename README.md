@@ -15,18 +15,27 @@ The app leverages modern Android development tools and GenAI-assisted features t
 🎯 Problem Statement
 
 In many rural schools:
+
 There is no proper library tracking system
+
 Students do not know which books are available
+
 Teachers maintain manual registers that are error-prone
+
 Books often get lost or returned late
+
 Reading culture is slowly declining
 
 💡 Solution – Namma-Pustaka
 
 Namma-Pustaka acts as a digital library register + student reading companion.
+
 Students can browse books visually
+
 Read Kannada summaries
+
 Reserve and review books
+
 Teachers can issue, track, and monitor overdue books
 
 🚀 Key Features
@@ -34,47 +43,69 @@ Teachers can issue, track, and monitor overdue books
 📖 Book Catalog
 
 Browse books by categories:
+
 Story
+
 Science
+
 History
+
 Grid-style layout showing book covers like a digital shelf
+
 Search books by Book Name or Author
 
 📷 QR Code Borrow System
 
 Each book has a QR code
+
 Teacher scans the QR to issue the book to a student
+
 Automatically records:
+
 Student name
+
 Issue date
+
 Return status
 
 ⭐ Review Corner
 
 Students can:
+
 Give Star Ratings (1–5)
+
 Write one-sentence reviews
+
 Helps other students choose books
 
 🏆 Reading Leaderboard
 
 Tracks:
+
 Pages read per student
+
 Monthly reading activity
+
 Displays top readers
+
 Encourages healthy competition
 
 ⏰ Overdue Alerts
 
 Automatically detects overdue books
+
 Overdue status text turns RED
+
 Helps teachers follow up easily
 
 🔄 App Usage & User Flow
 
 Teacher adds books using camera-based entry
+
 Student browses catalog & reserves a book
+
 Teacher scans QR code to issue book
+
 Student reads and submits review
 
 🛠 Technical Implementation
@@ -82,6 +113,7 @@ Student reads and submits review
 📌 Technologies Used
 
 Component
+
 Technology
 Programming Language
 Kotlin
