@@ -1,10 +1,15 @@
 📚 Namma-Pustaka
+
 Smart Library Assistant for Rural Schools
+
 Android App Development using GenAI
+
 📝 Project Overview
+
 Namma-Pustaka is an Android-based Smart Library Assistant designed for village and rural schools where libraries are often unmanaged and limited to cupboards of books.
 The app transforms a traditional book shelf into a digital, trackable, and interactive library system, encouraging reading habits while simplifying book management for teachers.
 The app leverages modern Android development tools and GenAI-assisted features to make library usage simple, visual, and engaging for students.
+
 🎯 Problem Statement
 In many rural schools:
 There is no proper library tracking system
